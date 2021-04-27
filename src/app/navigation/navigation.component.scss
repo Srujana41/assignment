@@ -1,0 +1,42 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.sub-container1{
+  background: #F5F5F5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+.navbar{
+  display:flex;
+  justify-content: space-between;
+
+}
+.logo{
+  align-items: flex-start;
+}
+nav{
+  flex: 1;
+
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+
+}
+nav ul li{
+  align-items: flex-end;
+}
+nav ul li a{
+  text-decoration: none;
+  margin-top:10px;
+
+
+}
+
+

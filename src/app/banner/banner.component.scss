@@ -1,0 +1,23 @@
+.container{
+  width: 90vw;
+  align-content: center;
+
+}
+.header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+
+}
+.header .text{
+  color: white;
+  max-width: 200px;
+  margin:0 20px;
+}
+.image{
+  height: 100px;
+
+}
